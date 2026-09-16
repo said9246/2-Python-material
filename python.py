@@ -40,9 +40,14 @@
 #     print(i)
 
 
-x= 10
-while x>0:
-        print(x)
-        x -= 1  
+# x= 10
+# while x>0:
+#         print(x)
+#         x -= 1  
 
  
+try: 
+        number = int(input("Enter number: ")) 
+        print(10 / number) 
+except: 
+        print("Invalid input") 
