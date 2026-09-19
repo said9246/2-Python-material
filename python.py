@@ -46,10 +46,6 @@
 #         x -= 1  
 
  
-try: 
-        number = int(input("Enter number: ")) 
-        print(10 / number) 
-except: 
-        print("Invalid input") 
+print("update code")
 
         
